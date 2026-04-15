@@ -54,7 +54,12 @@ public class empleado {
 
     
     public float calcularsalario(){
-        salario=salario*5;
+        salario*=5;
+        return salario;
+    }
+    
+    public float mensaje(){
+        salario*=0;
         return salario;
     }
 }
